@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>SLIDE HISTORY TRICK by StakeXSlide</title>
+	<link rel="stylesheet" href="index.css" />
+	<link rel="shortcut icon" href="insta.png" />
+</head>
+<body>
+	<div class="up-right">
+		<a title="Instagram" href="https://instagram.com/your_instagram_handle" target="_blank">
+			<img src="insta.png" alt="Instagram" />
+		</a>
+		<a title="Premium Trick Purchase" href="your-premium-link.html" target="_blank">
+			<img src="premium.png" alt="Premium Trick" />
+		</a>
+		<a title="PhonePe" href="your-phonepe-link.html" target="_blank">
+			<img src="phonepe.png" alt="PhonePe" />
+		</a>
+	</div>
+
+	<div id="crashes_count" class="bottom-left hide"></div>
+
+	<div class="middle">
+		<a class="top-logo" href="https://stake.games/casino/games/slide" target="_blank">
+			<img src="stake.png" alt="Stake.com" />
+			<div>SLIDE HISTORY TRICK by StakeXSlide</div>
+		</a>
+		<input id="seed_input" type="text" placeholder="Enter the hash" />
+		<div class="checkbox-container">
+			<input type="checkbox" id="use_stake_us_block_hash" />
+			<label for="use_stake_us_block_hash">Use stake.us block hash</label>
+		</div>
+		<div class="options">
+			<label for="amount_input">Amount:</label>
+			<input id="amount_input" type="number" min="0" />
+			<label for="good_value_input">Highlight slide above or equal to:</label>
+			<input id="good_value_input" type="number" min="0" />
+			<div style="display: inline">X</div>
+		</div>
+		<button id="update_button" class="hide">Update</button>
+		<div id="statistics" class="hide"></div>
+		<div id="loading"></div>
+		<div id="results"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
